@@ -39,7 +39,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_MODULE_CLASS := EXECUTABLES
 
-LOCAL_INIT_RC := com.android.car.powertestservice.rc
+# LOCAL_INIT_RC := com.android.car.powertestservice.rc
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_EXECUTABLE)

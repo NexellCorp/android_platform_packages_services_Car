@@ -35,7 +35,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_STRIP_MODULE := keep_symbols
 
-LOCAL_INIT_RC := com.android.car.procfsinspector.rc
+# LOCAL_INIT_RC := com.android.car.procfsinspector.rc
 
 LOCAL_MODULE := com.android.car.procfsinspector
 LOCAL_MODULE_TAGS := optional
