@@ -39,7 +39,9 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_MODULE_CLASS := EXECUTABLES
 
+ifeq ($(NEXELL_QUICKBOOT), false)
 LOCAL_INIT_RC := com.android.car.powertestservice.rc
+endif
 LOCAL_MODULE_TAGS := optional
 
 include $(BUILD_EXECUTABLE)
