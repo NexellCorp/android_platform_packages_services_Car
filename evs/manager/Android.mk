@@ -21,7 +21,9 @@ LOCAL_SHARED_LIBRARIES := \
     android.hardware.automotive.evs@1.0 \
 
 
+ifeq ($(NEXELL_QUICKBOOT), false)
 LOCAL_INIT_RC := android.automotive.evs.manager@1.0.rc
+endif
 
 LOCAL_MODULE := android.automotive.evs.manager@1.0
 
